@@ -1,0 +1,52 @@
+{
+  "users": [
+    { "id": 1, "name": "Admin", "email": "admin@mail.com", "role": "admin" },
+    { "id": 2, "name": "Manager", "email": "manager@mail.com", "role": "manager" }
+  ],
+
+  "categories": [
+    { "id": 1, "name": "Clothing", "parentId": null },
+    { "id": 2, "name": "Electronics", "parentId": null }
+  ],
+
+  "products": [
+    { "id": 1, "name": "Nike Sportswear", "price": 134, "stock": 50, "categoryId": 1 },
+    { "id": 2, "name": "Red Tape Shoes", "price": 89, "stock": 30, "categoryId": 1 },
+    { "id": 3, "name": "Smartwatch FST", "price": 199, "stock": 20, "categoryId": 2 },
+    { "id": 4, "name": "Allen Solly Shirt", "price": 441, "stock": 15, "categoryId": 1 }
+  ],
+
+  "customers": [
+    { "id": 1, "name": "John Doe", "email": "john@mail.com" },
+    { "id": 2, "name": "Jane Smith", "email": "jane@mail.com" }
+  ],
+
+  "orders": [
+    { "id": 1, "customerId": 1, "totalPrice": 134, "status": "processing", "payment": "transfer", "createdAt": "2024-01-12T12:23:00Z" },
+    { "id": 2, "customerId": 2, "totalPrice": 441, "status": "completed", "payment": "card", "createdAt": "2024-02-10T10:00:00Z" },
+
+    { "id": 3, "customerId": 1, "totalPrice": 210, "status": "completed", "payment": "card", "createdAt": "2024-03-05T09:00:00Z" },
+    { "id": 4, "customerId": 2, "totalPrice": 320, "status": "processing", "payment": "transfer", "createdAt": "2024-04-12T14:00:00Z" },
+    { "id": 5, "customerId": 1, "totalPrice": 150, "status": "completed", "payment": "card", "createdAt": "2024-05-20T11:30:00Z" },
+    { "id": 6, "customerId": 2, "totalPrice": 500, "status": "completed", "payment": "card", "createdAt": "2024-06-15T16:00:00Z" },
+    { "id": 7, "customerId": 1, "totalPrice": 275, "status": "processing", "payment": "transfer", "createdAt": "2024-07-10T08:20:00Z" },
+    { "id": 8, "customerId": 2, "totalPrice": 390, "status": "completed", "payment": "card", "createdAt": "2024-08-01T13:45:00Z" }
+  ],
+
+  "orderItems": [
+    { "id": 1, "orderId": 1, "productId": 1, "quantity": 1, "price": 134 },
+    { "id": 2, "orderId": 2, "productId": 4, "quantity": 1, "price": 441 },
+
+    { "id": 3, "orderId": 3, "productId": 3, "quantity": 1, "price": 199 },
+    { "id": 4, "orderId": 4, "productId": 2, "quantity": 2, "price": 89 },
+    { "id": 5, "orderId": 5, "productId": 1, "quantity": 1, "price": 134 },
+    { "id": 6, "orderId": 6, "productId": 4, "quantity": 1, "price": 441 },
+    { "id": 7, "orderId": 7, "productId": 2, "quantity": 3, "price": 89 },
+    { "id": 8, "orderId": 8, "productId": 3, "quantity": 2, "price": 199 }
+  ],
+
+  "shipments": [
+    { "id": 1, "orderId": 1, "status": "pending", "tracking": "TRK123" },
+    { "id": 2, "orderId": 2, "status": "delivered", "tracking": "TRK124" }
+  ]
+}

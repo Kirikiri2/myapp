@@ -25,12 +25,12 @@ const route = useRoute()
 const menu = [
     { name: 'Overview', icon: 'mdi:view-grid-outline', path: '/' },
     { name: 'Products', icon: 'mdi:box-variant-closed', path: '/products' },
-    { name: 'Customer', icon: 'mdi:user-multiple-outline', path: '/tasks' },
-    { name: 'Orders', icon: 'mdi:briefcase-outline', path: '/tasks' },
-    { name: 'Shipment', icon: 'mdi:compass-outline', path: '/tasks' },
-    { name: 'Store Setting', icon: 'mdi:archive-outline', path: '/tasks' },
-    { name: 'Platform Partner', icon: 'mdi:share-variant-outline', path: '/tasks' },
-    { name: 'Feedback', icon: 'mdi:chat-bubble-outline', path: '/tasks' },
-    { name: 'Help & Support', icon: 'mdi:question-mark-circle-outline', path: '/tasks' }
+    { name: 'Customer', icon: 'mdi:user-multiple-outline', path: '/' },
+    { name: 'Orders', icon: 'mdi:briefcase-outline', path: '/' },
+    { name: 'Shipment', icon: 'mdi:compass-outline', path: '/' },
+    { name: 'Store Setting', icon: 'mdi:archive-outline', path: '/' },
+    { name: 'Platform Partner', icon: 'mdi:share-variant-outline', path: '/' },
+    { name: 'Feedback', icon: 'mdi:chat-bubble-outline', path: '/' },
+    { name: 'Help & Support', icon: 'mdi:question-mark-circle-outline', path: '/' }
 ]
 </script>

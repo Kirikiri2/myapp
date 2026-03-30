@@ -10,7 +10,8 @@ export default defineNuxtConfig({
       tailwindcss(),
     ]},
    modules: [
-    '@nuxt/icon'
+    '@nuxt/icon',
+    'nuxt-charts'
   ],
     icon: {
     size: '25px',
