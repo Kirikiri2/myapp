@@ -15,7 +15,7 @@ https://www.figma.com/design/XMJTzJC7ZKtJABVOfHyWpg/E---Commerce-Seller-Dashboar
 
 ## Демо
 
-![myapp/preview/ScreenDash1.png](myapp/preview/ScreenDash1.png)
+![preview/ScreenDash1.png](preview/ScreenDash1.png)
 
 ## Задача проекта
 
